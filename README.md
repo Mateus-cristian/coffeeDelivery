@@ -8,6 +8,8 @@ Lojinha de cafés com um carrinho de compras.
 - No terminal do editor navegue até a pasta do projeto e rode yarn ou npm install para instalar as dependências;
 - Ainda no terminal rode yarn dev ou npm run dev
 - O último comando é para abrir a conexão com a API que é local,abra outra aba no terminal e navegue até a pasta do projeto e rode yarn server ou npm run server.
+- Projetinho estará rodando na porta 8080.
+
 
 ## 💻 Principais tecnologias:
 
