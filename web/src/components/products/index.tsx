@@ -1,7 +1,7 @@
 
-import { useEffect } from 'react'
+import { useEffect } from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
-import { useSelector, useDispatch, } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, decrementQuantityProduct, fetchCoffes, incrementProductToCart, incrementQuantityProduct, } from '../../store/cart';
 import { CoffeeProps } from '../../types/@types';
 
@@ -33,7 +33,7 @@ export default function Products() {
     return (
         <div className='mt-32 flex flex-col align-start'>
             <h2 className='text-subtitle text-[2rem] font-title font-extrabold'>Nossos cafés</h2>
-            <div className='grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-20 place-items-center pb-20 xxl:place-items-start xxl:grid-cols-[repeat(auto-fit,minmax(288px,1fr))] '>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-20 place-items-center pb-20  xxl:place-items-start xxl:grid-cols-[repeat(auto-fit,minmax(256px,1fr))] '>
                 {coffes.map((coffee: CoffeeProps) =>
                     <div key={coffee.id} className='relative rounded-md rounded-tr-[2rem] rounded-bl-[2rem] bg-alt min-h-[310px] max-w-[256px]'>
                         <img src={coffee.image} alt="" className='mx-auto translate-y-[-20px]' />
