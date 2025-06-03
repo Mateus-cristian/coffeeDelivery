@@ -9,6 +9,7 @@ module.exports = {
       md: "800px",
       lg: "1200px",
       xl: "1280px",
+      xxl: "1480px",
     },
     colors: {
       title: "#272221",
