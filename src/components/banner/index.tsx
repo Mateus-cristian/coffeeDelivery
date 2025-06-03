@@ -7,7 +7,7 @@ import banner from '../../assets/images/banner.png'
 
 export default function Banner() {
     return (
-        <div className='flex gap-14 mt-24'>
+        <div className='flex gap-14 mt-24 xl:justify-between xl:max-w-full'>
             <div className='xs:max-w-full md:max-w-[60%]'>
                 <div className='flex flex-col gap-4'>
                     <h1 className='xs:max-w-[70%] xs:text-3xl text-title font-extrabold font-title md:max-w-[600px] md:text-5xl'>Encontre o café perfeito para qualquer hora do dia</h1>
